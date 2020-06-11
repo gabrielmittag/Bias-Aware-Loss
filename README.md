@@ -34,7 +34,6 @@ To train and evaluate the first experiment on synthetic data in the paper, run t
 python train_image_quality_synthetic.py
 ```
 
-The blurriness sigma and the image filenames are already stored in the csv files (e.g. iqb_train.csv)
 
 The script will plot a number of diagrams and images that can be turned off at the start of the script. For example, to turn off plotting of the results after every training epoch set "plot_every_epoch=False". Basic training options, such as learning rate, can be set in the "opts" dictionary. 
 
@@ -44,7 +43,7 @@ The different settings, which were analysed in the paper, can also be set there:
 * anchor_db: Name of the dataset to which the MOS predictions are anchored to.
 * mse_weight: Weight of the MSE vanilla loss that is added to the bias loss, in order to anchor the predictions.
 
-To run the experiment without bias-aware loss set "r_th=1", in this case the biases are never updated.
+To run the experiment without bias-aware loss set "r_th=1", in this case the biases are never updated. The blurriness sigma and the image filenames are already stored in the csv files (e.g. iqb_train.csv). 
 
 ## Experiment 2: Real Image Quality Data
 
