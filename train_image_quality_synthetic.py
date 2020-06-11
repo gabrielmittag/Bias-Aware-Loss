@@ -33,7 +33,7 @@ opts = {
     'pretrained': False, # image net pretraining
     'augmented': True, # random crop training images
     'bias_fun': 'first_order', # either "first_order" or "third_order" bias estimation
-    'r_th': 1, # minimum correlation on training set before first bias estimation
+    'r_th': 0.7, # minimum correlation on training set before first bias estimation
     'anchor_db': 'train_1', # string with dataset name to which biases should be anchored / None if no anchoring used
     'mse_weight': 0.0, # weight of "vanilla MSE loss" added to bias loss
     }
