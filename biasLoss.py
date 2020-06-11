@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 10 16:10:27 2020
-
-@author: Gabriel
-"""
 import numpy as np
 import torch
 from scipy.stats import pearsonr
