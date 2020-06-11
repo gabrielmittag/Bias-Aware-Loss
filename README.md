@@ -34,6 +34,8 @@ To train and evaluate the first experiment on synthetic data in the paper, run t
 python train_image_quality_synthetic.py
 ```
 
+The blurriness sigma and the image filenames are already stored in the csv files (e.g. iqb_train.csv)
+
 The script will plot a number of diagrams and images that can be turned off at the start of the script. For example, to turn off plotting of the results after every training epoch set "plot_every_epoch=False". Basic training options, such as learning rate, can be set in the "opts" dictionary. 
 
 The different settings, which were analysed in the paper, can also be set there: 
@@ -58,4 +60,4 @@ This script is similar to the first one. However, the Dataset class used is diff
 dataset_folder = 'D:/image_quality_datasets/'
 ```
 
-The selection of training and validation sets are made with two lists ("train_dbs", "val_dbs") that contain the dataset names.
+The transformed MOS values and the filenames are already stored in "image_datasets.csv". The selection of training and validation sets are made with two lists ("train_dbs", "val_dbs") that contain the dataset names.
