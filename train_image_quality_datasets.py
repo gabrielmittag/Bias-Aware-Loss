@@ -244,7 +244,7 @@ dl_train = DataLoader(
     num_workers=opts['num_workers'])
 
 dev = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print('running on ')
+print('running on:')
 print(dev)
 model.to(dev)
 opt = optim.Adam(model.parameters(), lr=opts['lr'])
