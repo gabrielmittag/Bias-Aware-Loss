@@ -45,6 +45,8 @@ The different settings, which were analysed in the paper, can also be set there:
 
 To run the experiment without bias-aware loss set "r_th=1", in this case the biases are never updated. The blurriness sigma and the image filenames are already stored in the csv files (e.g. iqb_train.csv). 
 
+After (and during) the training, the results of each epoch are saved in a csv file in the "results" subfolder. The csv also contains the training options that were used. In the paper, for each training setting, the training was run several times. The best epoch of each training run was then used (i.e. the column of the csv with the highest "r" value).
+
 ## Experiment 2: Real Image Quality Data
 
 To train and evaluate the first experiment on synthetic data in the paper, run this command:
