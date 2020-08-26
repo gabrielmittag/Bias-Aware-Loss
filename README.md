@@ -1,6 +1,6 @@
 # Bias-Aware Loss for Training Image and Speech Quality Prediction Models from Multiple Dataset
 
-This repository is the official implementation of "Bias-Aware Loss for Training Image and Speech Quality Prediction Models from Multiple Dataset", submitted to NIPS 2020. 
+This repository is the official implementation of "Bias-Aware Loss for Training Image and Speech Quality Prediction Models from Multiple Dataset", submitted to AAAI 2021. 
 
 ## Requirements
 
