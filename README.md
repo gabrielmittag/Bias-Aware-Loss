@@ -1,6 +1,7 @@
 # Bias-Aware Loss for Training Image and Speech Quality Prediction Models from Multiple Dataset
 
-This repository is the official implementation of "Bias-Aware Loss for Training Image and Speech Quality Prediction Models from Multiple Dataset", submitted to ICASSP 2021. 
+This repository is the official implementation of following paper:  
+[Gabriel Mittag, Saman Zadtootaghaj, Thilo Michael, Babak Naderi, Sebastian Möller. "Bias-Aware Loss for Training Image and Speech Quality Prediction Models from Multiple Datasets," arXiv:2104.10217 [eess.AS], 2021. (accepted at QoMEX 2021)](https://arxiv.org/abs/2104.10217)
 
 ## Requirements
 
@@ -27,7 +28,7 @@ TID 2013: http://www.ponomarenko.info/tid2013.htm
 Note however, that this is not needed to run the basic synthetic experiment.
 
 ## Experiment 1: Synthetic Image Quality Data
-
+(In the paper this experiment is conducted on synthetic speech samples, instead of images)
 To train and evaluate the first experiment on synthetic data in the paper, run this command:
 
 ```train1
